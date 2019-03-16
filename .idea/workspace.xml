@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba668718-d67d-4f31-a395-a9b6d345b9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/DclSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/InnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/singleton/SycFunSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/总结/单例总结/summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/总结/单例总结/summary" beforeDir="false" afterPath="$PROJECT_DIR$/总结/单例总结/summary" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,13 +38,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1582" />
-          <entry key="summary" value="516" />
+          <entry key="summary" value="618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1582" />
-          <entry key="PLAIN_TEXT" value="516" />
+          <entry key="PLAIN_TEXT" value="618" />
         </counts>
       </usages-collector>
     </session>
@@ -125,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/总结/单例总结/summary">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+            <state relative-caret-position="335">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -356,7 +349,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552721964460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552723092469" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -466,12 +459,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552712807632</updated>
-      <workItem from="1552712810377" duration="7704000" />
+      <workItem from="1552712810377" duration="8737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7704000" />
+    <option name="totallyTimeSpent" value="8737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -901,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/总结/单例总结/summary">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        <state relative-caret-position="335">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
         </state>
       </provider>
     </entry>
