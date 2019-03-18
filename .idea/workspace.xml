@@ -5,9 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba668718-d67d-4f31-a395-a9b6d345b9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/prototype/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/prototype/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/JdkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/OrderDaoJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/总结/代理作业/summary" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/AFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/AbstractFactoryMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/BFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/IFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/CarA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/CarB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/ComputerA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/ComputerB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/TelevisionA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/TelevisionB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/ICar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/IComputer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/ITelevision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/JeepCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/SaloonCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/TrunkCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/enums/CarEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/FactoryMethodMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/ICarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/JeepCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/SaloonCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/TrunkCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/CarFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/SimpleFactoryMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/总结/单例总结/summary" beforeDir="false" afterPath="$PROJECT_DIR$/总结/单例作业/summary" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,41 +53,42 @@
     <session id="-639665242">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AbstractFactoryMain" value="1" />
           <entry key="SimpleFactoryMain" value="2" />
-          <entry key="java" value="48" />
-          <entry key="summary" value="1" />
+          <entry key="java" value="59" />
+          <entry key="summary" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="59" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2153" />
-          <entry key="summary" value="632" />
-          <entry key="xml" value="5" />
+          <entry key="dummy" value="14" />
+          <entry key="java" value="2804" />
+          <entry key="summary" value="840" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2153" />
-          <entry key="PLAIN_TEXT" value="632" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="2804" />
+          <entry key="PLAIN_TEXT" value="854" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -63,97 +96,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/LazySingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="200">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/DclSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/InnerClassSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="400">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/SycFunSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/OrderDaoJdkProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="260">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/总结/单例总结/summary">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoCglibProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="547">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/CglibTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/JdkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="130" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="130" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="843" column="22" selection-start-line="843" selection-start-column="22" selection-end-line="843" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/prototype/Order.java">
+        <entry file="file://$PROJECT_DIR$/总结/代理作业/summary">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/io/ObjectInputStream.java">
+        <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/lang/reflect/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="375" column="14" selection-start-line="375" selection-start-column="14" selection-end-line="375" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/prototype/OrderDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -219,9 +270,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wyk/singleton/SycSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wyk/singleton/SycFunSingleton.java" />
         <option value="$PROJECT_DIR$/总结/单例总结/summary" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wyk/prototype/OrderDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wyk/prototype/Order.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoJdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/OrderDaoCglibProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoCglibProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/CglibTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/JdkTest.java" />
+        <option value="$PROJECT_DIR$/总结/代理作业/summary" />
       </list>
     </option>
   </component>
@@ -353,7 +414,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -405,29 +465,46 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wyk" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyk" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="cglibproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyk" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jdkproxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
               <item name="designMode" type="462c0819:PsiDirectoryNode" />
               <item name="总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designMode" type="462c0819:PsiDirectoryNode" />
-              <item name="总结" type="462c0819:PsiDirectoryNode" />
-              <item name="单例总结" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552729574860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552911085042" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -538,18 +615,19 @@
       <option name="presentableId" value="Default" />
       <updated>1552712807632</updated>
       <workItem from="1552712810377" duration="10258000" />
-      <workItem from="1552728868146" duration="705000" />
+      <workItem from="1552728868146" duration="795000" />
+      <workItem from="1552909362412" duration="1755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10963000" />
+    <option name="totallyTimeSpent" value="12808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -830,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,10 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,10 +946,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/总结/单例总结/summary">
+    <entry file="file://$PROJECT_DIR$/总结/单例作业/summary">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6580">
+          <caret line="375" column="14" selection-start-line="375" selection-start-column="14" selection-end-line="375" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/prototype/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,37 +977,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/prototype/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="375" column="14" selection-start-line="375" selection-start-column="14" selection-end-line="375" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/prototype/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="527">
+          <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/OrderDaoJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="843" column="22" selection-start-line="843" selection-start-column="22" selection-end-line="843" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../environment/java/java8/jdk/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoCglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/CglibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/JdkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="130" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/总结/代理作业/summary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

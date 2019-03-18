@@ -1,0 +1,8 @@
+为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
+
+    代码层面：从className.getClass().getInterfaces()可知，该类实现的所有接口是由数组保存，因数组下标限制，最大维Integer.MAX_VALUE=65535
+    JVM层面：从class文件结构中 interfaces_count 接口计数器，interfaces_count 的值表示当前类或接口的直接父接口数量，类型是u2，两个字节是16位，最大值是2^16-1=65535
+
+
+
+
