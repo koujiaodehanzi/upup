@@ -4,43 +4,7 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java" description="protected abstract Object createBean(String beanNa..." line="1752" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba668718-d67d-4f31-a395-a9b6d345b9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/cglibproxy/OrderDaoCglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/JdkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/jdkproxy/OrderDaoJdkProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/总结/代理作业/summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/AFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/AbstractFactoryMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/BFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/IFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/CarA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/CarB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/ComputerA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/ComputerB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/TelevisionA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/abstractfactory/entity/TelevisionB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/ICar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/IComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/ITelevision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/JeepCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/SaloonCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/entity/TrunkCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/enums/CarEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/FactoryMethodMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/ICarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/JeepCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/SaloonCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/factorymethod/TrunkCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/CarFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wyk/factory/simplefactory/SimpleFactoryMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/总结/单例总结/summary" beforeDir="false" afterPath="$PROJECT_DIR$/总结/单例作业/summary" afterDir="false" />
-    </list>
+    <list default="true" id="ba668718-d67d-4f31-a395-a9b6d345b9df" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +17,7 @@
     <session id="-639665242">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.opened" value="3" />
@@ -63,14 +27,14 @@
         <counts>
           <entry key="AbstractFactoryMain" value="1" />
           <entry key="SimpleFactoryMain" value="2" />
-          <entry key="java" value="59" />
+          <entry key="java" value="60" />
           <entry key="summary" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="60" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="3" />
           <entry key="XML" value="1" />
@@ -95,15 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/proxy/staticproxy/OrderDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -191,11 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/总结/代理作业/summary">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/factory/abstractfactory/AbstractFactoryMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -465,7 +429,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wyk" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
@@ -475,19 +439,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wyk" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="cglibproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wyk" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designmode" type="b2602c69:ProjectViewProjectNode" />
@@ -504,7 +457,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552911085042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552920715464" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -616,12 +569,12 @@
       <updated>1552712807632</updated>
       <workItem from="1552712810377" duration="10258000" />
       <workItem from="1552728868146" duration="795000" />
-      <workItem from="1552909362412" duration="1755000" />
+      <workItem from="1552909362412" duration="4939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12808000" />
+    <option name="totallyTimeSpent" value="15992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -643,7 +596,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -897,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/factory/abstractfactory/AbstractFactoryMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/singleton/HungrySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1083,8 +1029,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/总结/代理作业/summary">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyk/factory/abstractfactory/AbstractFactoryMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
