@@ -1,0 +1,16 @@
+1、工厂模式(Factory)：找你要什么，就给我什么
+2、单例模式(Singleton)：独一无二
+3、原型模式(Prototype)：克隆
+4、代理模式(Proxy)：中介
+5、委派模式(Delegate)：我不想干，你帮我干
+6、策略模式(Strategy)：多种选择供您选，结果不变
+7、模板模式(Template)：根据不同的动作，会有不同的结果
+8、适配器模式(Adapter)：变压器
+9、装饰器模式(Decorator)：包装
+10、观察者模式(Observer)：吃饭叫我
+
+
+spring：
+    aop 事务@Transactional
+    ioc 自动生成对象 @Service
+    DI  @Autowired
